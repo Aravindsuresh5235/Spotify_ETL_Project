@@ -1,3 +1,4 @@
+# Spotify_ETL_Project
 ## Introduction
 
 In this pipeline, we develop an ETL process using the Spotify API. It retrieves data from the Spotify API, transforms it into the required format, and loads it into an AWS data store. 
@@ -26,7 +27,6 @@ pip install numpy
 pip install pandas
 pip install spotipy
 ```
-## Project Execution Flow
 ## Project Execution Flow
 1. Integrating with Spotify API and Extracting Data
    - Connect to the Spotify API to fetch Top 100 most streamed songs data.
